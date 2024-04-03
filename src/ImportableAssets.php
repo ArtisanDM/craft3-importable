@@ -7,7 +7,7 @@ use craft\web\assets\cp\CpAsset;
 
 class ImportableAssets extends AssetBundle
 {
-  public function init()
+  public function init(): void
   {
     $this->sourcePath = '@markdrzy/importable/resources';
 

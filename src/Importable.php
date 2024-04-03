@@ -40,7 +40,7 @@ class Importable extends Plugin
     // Public Methods
     // =========================================================================
 
-    public function init()
+    public function init(): void
     {
         parent::init();
         self::$plugin = $this;
